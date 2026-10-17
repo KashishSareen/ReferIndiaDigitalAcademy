@@ -13,6 +13,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
+  overflow-x: clip;
 }
 
 body {
@@ -22,6 +23,8 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
+
+
 
 h1, h2, h3, h4 {
   color: #0f1836;
@@ -201,6 +204,10 @@ h1, h2, h3, h4 {
   transform: translateY(-4px);
   border-color: #b9c8ec;
   box-shadow: 0 2px 4px rgba(15, 24, 54, 0.04), 0 24px 48px -16px rgba(15, 24, 54, 0.18);
+}
+
+#testimonials .card-hover:hover {
+  transform: translateY(-4px);
 }
 
 .icon-tile {
